@@ -18,9 +18,18 @@ def hello():
     test=request.form.getlist("lenguages")
     ingles=request.form.get("ingles")
     date=request.form.get("date")
-    return render_template("index.html",nombre=name,numero=number,correo=email,ubicacion=location,usuarioL=user,perfil=perfil,nacion=nacion,test=test,ingles=ingles,longitud=len(test),fecha=date)
+    apt=request.form.get("dataAp")
+    listapt=[]
+    start=0
+    texto=""
+    for i in apt:
+        texto=texto+i
+        if i==".":
+            listapt.append(texto)
+            texto=""
+    
+    return render_template("index.html",nombre=name,numero=number,correo=email,ubicacion=location,usuarioL=user,perfil=perfil,nacion=nacion,test=test,ingles=ingles,longitud=len(test),fecha=date,apt=apt,longapt=len(listapt),listapt=listapt)
 
 @app.route("/<string:name>")
 def helloda(name):
-    return "<h1>Hello, {}!</h1>".format(name)
-    
+    return "<h1>Hello, {}!</h1>".format(name)    

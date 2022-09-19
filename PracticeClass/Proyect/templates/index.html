@@ -45,11 +45,9 @@
                     <h2> <strong>APTITUDES</strong></h2>
                     <hr> 
                 </div>
-                <li type="disc">Inteligencia emocional</li>
-                <li type="disc">Espiritu Critico</li>
-                <li type="disc">Trabajo en equipo</li>
-                <li type="disc">Capacidad analitica</li>
-                <li type="disc">Habilidades fisicas</li>
+                {%for i in range(0, longapt)%}
+                    <li type="disc">{{listapt[i]}}</li>
+                {%endfor%}
                 <br>
                 <div class="title">
                     <h2> <strong>HABILIDADES</strong></h2>
