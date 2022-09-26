@@ -52,10 +52,22 @@ document.addEventListener('DOMContentLoaded', () => {
         var aaa=document.querySelector("ol").children;
         marcador.addEventListener("click",(e)=>{
           for (var i=0;i<aaa.length;i++){
+            aaa[i].firstChild.checked=true;
             aaa[i].setAttribute("id","match");
           console.log(aaa);
           };
-    });
+        });
+        const eliminador=document.querySelector("#eliminador");
+        eliminador.addEventListener("click",(e) => {
+          const elim=document.getElementsByTagName('li');
+            const aaa2=document.querySelector("#tasks");
+            for(var i=elim.length-1;i>=0;i--){
+                    aaa2.removeChild(elim[i]);
+                }  
+
+        });
+        
+
     }
     );
     
@@ -70,7 +82,8 @@ autofocus placeholder="New Task"
 type="text">
         <input type="submit">
     </form>
-    <button id="marcador" >Marcar texto</button>
+    <button id="marcador" >Marcar tarea</button> 
+    <button id="eliminador" >Eliminar tarea</button>
     <ol id="tasks">
     </ol>
   </body>
