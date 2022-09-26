@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DBP</title>
+<style>
+  #match{
+    text-decoration: line-through;
+  }
+  #nomatch{
+    text-decoration: none;
+  }
+</style>
+<script>
+  function asssiis(){
+    if (document.getElementById("cb").checked){
+      alert('seee');
+    }else{
+      aler('nooo');
+    }
+  }
+  
+document.addEventListener('DOMContentLoaded', () => {
+  
+   document.querySelector('#new-task').onsubmit = () => {
+            const cb = document.createElement("INPUT");
+            cb.setAttribute("type", "checkbox");
+            const button = document.createElement('button'); 
+            button.type = 'button'; 
+            button.innerText = 'X';
+            button.addEventListener("click", function() {
+              li.parentNode.removeChild(li);
+            });
+            const li = document.createElement('li');
+            li.setAttribute("id","funca");
+            li.appendChild(cb);
+            li.innerHTML += document.querySelector('#task').value;
+            li.appendChild(button);
+            document.querySelector('#tasks').append(li);
+            const cb1 = li.querySelector('input[type=checkbox]');
+            cb1.addEventListener("change",(ev) => {
+              if (ev.currentTarget.checked){
+                li.setAttribute("id","match")
+              }else {
+                li.setAttribute("id","nomatch")
+              }
+            });
+            document.querySelector('#task').value = '';
+            return false;
+        };
+        const marcador=document.querySelector("#marcador");
+        var aaa=document.querySelector("ol").children;
+        marcador.addEventListener("click",(e)=>{
+          for (var i=0;i<aaa.length;i++){
+            aaa[i].setAttribute("id","match");
+          console.log(aaa);
+          };
+    });
+    }
+    );
+    
+  </script>
+
+  </head>
+<body>
+<h1>Tasks</h1>
+<form id="new-task">
+        <input id="task" autocomplete="off"
+autofocus placeholder="New Task"
+type="text">
+        <input type="submit">
+    </form>
+    <button id="marcador" >Marcar texto</button>
+    <ol id="tasks">
+    </ol>
+  </body>
+</html>
