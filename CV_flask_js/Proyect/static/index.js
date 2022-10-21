@@ -1,14 +1,15 @@
 document.addEventListener('DOMContentLoaded' , () => {
     document.querySelector('#submitbutton').disabled = true;
-    document.querySelectorAll('.form-control').forEach(input => {
-        input.onkeyup = () => {
-            if (input.value.length > 0){
-                document.querySelector('#submitbutton').disabled=true;
-            }else {
-                document.querySelector('#submitbutton').disabled=false;
-            };
-        };
-        "no"
-    });
+    let input = document.querySelector(".form-control");
+    let button = document.querySelector("#submitbutton");
+    button.disabled = true;
+    input.addEventListener("change", stateHandle);
+    function stateHandle() {
+        if(document.querySelector(".form-control").value === "") {
+            button.disabled = true;
+        } else {
+            button.disabled = false;
+        }
+    };
         
 });
