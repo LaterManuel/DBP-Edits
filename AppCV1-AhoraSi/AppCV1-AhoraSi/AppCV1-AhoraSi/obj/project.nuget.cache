@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "pmk6BBDLJWAdY1OXBij1uXuf+IMhQpXsUSdtzjl51yHft/obhIJ0gr/zlqkRDxyAUJDyY9iF5x4nYCazCVKpOg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\itsma\\OneDrive\\Documents\\DBP-Edits\\AppCV1-AhoraSi\\AppCV1-AhoraSi\\AppCV1-AhoraSi\\AppCV1-AhoraSi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itsma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

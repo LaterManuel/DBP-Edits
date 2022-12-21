@@ -1,0 +1,10 @@
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.csproj.AssemblyReference.cache
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.AssemblyInfoInputs.cache
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.AssemblyInfo.cs
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.csproj.CoreCompileInputs.cache
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.dll
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\refint\AppCV1-AhoraSi.dll
+C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV1-AhoraSi\AppCV1-AhoraSi\AppCV1-AhoraSi\obj\Debug\netstandard2.0\AppCV1-AhoraSi.pdb
