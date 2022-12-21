@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AhoraSi.Page1">
     <NavigationPage.TitleView >
-        <Label Text="Curriculum Vitae" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center" BackgroundColor="#84939c"/>
+        <Label Text="Curriculum Vitae" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center" BackgroundColor="#2196F3"/>
     </NavigationPage.TitleView>
     <ScrollView BackgroundColor="#a5a5a5">
         <StackLayout Margin="16">
@@ -15,22 +15,26 @@
             <Frame Margin="8" BackgroundColor="#84939c">
                 <StackLayout>
 
-                    <Entry x:Name="EntryNombre"
+                    <Entry x:Name="name"
                            Placeholder="Ingrese su nombre"
                            FontSize="Medium"/>
-
-                    <Label Text="Seleccione su fecha de nacimiento"/>
-                    <DatePicker x:Name="EntryNacimiento" Format="d"/>
-
-                    <Entry x:Name="EntryOcupacion"
+                    
+                    <Entry x:Name="mail"
+                           Placeholder="Ingrese su correo"
+                           FontSize="Medium"/>
+                    
+                    <Entry x:Name="number"
+                           Placeholder="Ingrese su número de telefono"
+                           FontSize="Medium"/>
+                    
+                    <Entry x:Name="ocupation"
                            Placeholder="Ingrese su ocupacion"
                            FontSize="Medium"/>
 
-                    <Entry x:Name="EntryCorreo"
-                           Placeholder="Ingrese su correo"
-                           FontSize="Medium"/>
+                    <Label Text="Seleccione su fecha de nacimiento"/>
+                    <DatePicker x:Name="borndate" Format="d"/>
 
-                    <Picker Title="Seleccione su nacionalidad" x:Name="EntryNacionalidad">
+                    <Picker Title="Seleccione su nacionalidad" x:Name="nacionality">
                         <Picker.ItemsSource>
                             <x:Array Type="{x:Type x:String}">
                                 <x:String>Perú</x:String>
@@ -80,13 +84,13 @@
                         <Label Text="Editor de videos 4k" Grid.Column="1" Grid.Row="4"/>
                     </Grid>
 
-                    <Editor x:Name="EntryPerfil" Placeholder="Perfil"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
-                    <Editor x:Name="EntryApt" Placeholder="Aptitudes"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
-                    <Editor x:Name="EntryExp" Placeholder="Experiencia laboral"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
-                    <Editor x:Name="EntryForm" Placeholder="Formacion"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="inperfil" Placeholder="Perfil"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="aptitud" Placeholder="Aptitudes"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="experience" Placeholder="Experiencia laboral"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="formation" Placeholder="Formacion"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
                 </StackLayout>
             </Frame>
-            <Button Text="Go" Clicked="Button_Clicked" VerticalOptions="Center" BackgroundColor="Gray"/>
+            <Button Text="Enviar" Clicked="Button_Clicked" VerticalOptions="Center" BackgroundColor="Gray"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

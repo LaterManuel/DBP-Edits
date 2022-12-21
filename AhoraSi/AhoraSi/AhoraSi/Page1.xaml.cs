@@ -74,19 +74,20 @@ namespace AhoraSi
             {
                 english = fluido.Value.ToString();
             }
-            string nombre = EntryNombre.Text;
-            string nacimiento = EntryNacimiento.Date.ToString("d");
-            string ocupacion = EntryOcupacion.Text;
-            string correo = EntryCorreo.Text;
-            string nacionalidad = (string)EntryNacionalidad.ItemsSource[EntryNacionalidad.SelectedIndex];
+            string nombre = name.Text;
+            string nacimiento = borndate.Date.ToString("d");
+            string telefono = number.Text;
+            string ocupacion = ocupation.Text;
+            string correo = mail.Text;
+            string nacionalidad = (string)nacionality.ItemsSource[nacionality.SelectedIndex];
             string ingles = english;
             string lenguaje = leng;
             string habilidades = habil;
-            string perfil = EntryPerfil.Text;
-            string aptitudes = EntryApt.Text;
-            string experiencia = EntryExp.Text;
-            string formacion = EntryForm.Text;
-            await Application.Current.MainPage.Navigation.PushAsync(new Page2(nombre, ocupacion, correo, nacimiento, nacionalidad, perfil, ingles, lenguaje, habilidades, aptitudes, experiencia, formacion));
+            string perfil = inperfil.Text;
+            string aptitudes = aptitud.Text;
+            string experiencia = experience.Text;
+            string formacion = formation.Text;
+            await Application.Current.MainPage.Navigation.PushAsync(new Page2(nombre, ocupacion,telefono, correo, nacimiento, nacionalidad, perfil, ingles, lenguaje, habilidades, aptitudes, experiencia, formacion));
         }
     }
 }
