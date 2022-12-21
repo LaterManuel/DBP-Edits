@@ -1,7 +1,0 @@
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\AppCV.csproj.AssemblyReference.cache
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\AppCV.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\AppCV.AssemblyInfoInputs.cache
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\AppCV.AssemblyInfo.cs
-C:\Users\itsma\OneDrive\Documents\DBP-Edits\AppCV\AppCV\AppCV\obj\Debug\netstandard2.0\AppCV.csproj.CoreCompileInputs.cache

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AhoraSi.Page2">
+    <NavigationPage.TitleView >
+        <Label Text="Mi Primera CV en Android es horrible" Margin="-57,0,0,0" TextColor="White" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center"/>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="" x:Name="nombr" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Label Text="" x:Name="ocp" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Label Text="" x:Name="nac" FontSize="25" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Label Text="CONTACTO:" Grid.Row="0" Grid.Column="0" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="cor" Grid.Row="1" Grid.Column="0" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="IDIOMAS:" Grid.Row="2" Grid.Column="0" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="ing" Grid.Row="3" Grid.Column="0" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="APTITUDES:" Grid.Row="4" Grid.Column="0" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="leng" Grid.Row="5" Grid.Column="0" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="HABILIDADES:" Grid.Row="6" Grid.Column="0" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="hab" Grid.Row="7" Grid.Column="0" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="PERFIL:" Grid.Row="0" Grid.Column="1" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="perf" Grid.Row="1" Grid.Column="1" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="EXPERIENCIA LABORAL:" Grid.Row="2" Grid.Column="1" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="exp" Grid.Row="3" Grid.Column="1" FontSize="15" BackgroundColor="SkyBlue"/>
+
+                <Label Text="FORMACIÓN:" Grid.Row="4" Grid.Column="1" FontSize="20" BackgroundColor="Blue"/>
+                <Label Text="" x:Name="form" Grid.Row="5" Grid.Column="1" FontSize="15" BackgroundColor="SkyBlue"/>
+
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

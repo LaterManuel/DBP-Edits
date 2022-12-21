@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AhoraSi.Page1">
+    <NavigationPage.TitleView >
+        <Label Text="Curriculum Vitae" FontAttributes="Bold" FontSize="22" HorizontalTextAlignment="Center" BackgroundColor="#84939c"/>
+    </NavigationPage.TitleView>
+    <ScrollView BackgroundColor="#a5a5a5">
+        <StackLayout Margin="16">
+            <Label
+                   Text="Bienvenido, por favor llene sus datos para su CV"
+                   FontSize="Medium"
+                   Margin="8"
+                   HorizontalTextAlignment="Center"/>
+            <Frame Margin="8" BackgroundColor="#84939c">
+                <StackLayout>
+
+                    <Entry x:Name="EntryNombre"
+                           Placeholder="Ingrese su nombre"
+                           FontSize="Medium"/>
+
+                    <Label Text="Seleccione su fecha de nacimiento"/>
+                    <DatePicker x:Name="EntryNacimiento" Format="d"/>
+
+                    <Entry x:Name="EntryOcupacion"
+                           Placeholder="Ingrese su ocupacion"
+                           FontSize="Medium"/>
+
+                    <Entry x:Name="EntryCorreo"
+                           Placeholder="Ingrese su correo"
+                           FontSize="Medium"/>
+
+                    <Picker Title="Seleccione su nacionalidad" x:Name="EntryNacionalidad">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Perú</x:String>
+                                <x:String>Chile</x:String>
+                                <x:String>Ecuador</x:String>
+                                <x:String>Colombia</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                    <Label Text="Seleccione su nivel de inglés"/>
+                    <RadioButton x:Name="basico" Content="Básico" Value="Básico"/>
+                    <RadioButton x:Name="intermedio" Content="Intermedio" Value="Intermedio"/>
+                    <RadioButton x:Name="avanzado" Content="Avanzado" Value="Avanzado"/>
+                    <RadioButton x:Name="fluido" Content="Fluido" Value="Fluido"/>
+
+                    <Label Text="Seleccione lenguajes de programación"/>
+                    <Grid ColumnDefinitions="auto,*">
+                        <CheckBox x:Name="Python" Grid.Column="0"/>
+                        <Label Text="Python" Grid.Column="1" />
+
+                        <CheckBox x:Name="Java" Grid.Column="0" Grid.Row="1"/>
+                        <Label Text="Java" Grid.Column="1" Grid.Row="1"/>
+                        
+                        <CheckBox x:Name="Html" Grid.Column="0" Grid.Row="2"/>
+                        <Label Text="Html, se que no es un lenguaje pero no hay ideas" Grid.Column="1" Grid.Row="2"/>
+
+                        <CheckBox x:Name="C" Grid.Column="0" Grid.Row="3"/>
+                        <Label Text="C++" Grid.Column="1" Grid.Row="3"/>
+                    </Grid>
+
+                    <Label Text="Seleccione sus habilidades"/>
+                    <Grid ColumnDefinitions="auto,*">
+                        <CheckBox x:Name="videojuegos" Grid.Column="0"/>
+                        <Label Text="Programacion videojuegos" Grid.Column="1"/>
+
+                        <CheckBox x:Name="office" Grid.Column="0" Grid.Row="1"/>
+                        <Label Text="Uso de Ofimatica de Office" Grid.Column="1" Grid.Row="1"/>
+                        
+                        <CheckBox x:Name="video" Grid.Column="0" Grid.Row="2"/>
+                        <Label Text="Experto en creacion de Videos" Grid.Column="1" Grid.Row="2"/>
+                        
+                        <CheckBox x:Name="musica" Grid.Column="0" Grid.Row="3"/>
+                        <Label Text="Musico de hobby" Grid.Column="1" Grid.Row="3"/>
+
+                        <CheckBox x:Name="editor" Grid.Column="0" Grid.Row="4"/>
+                        <Label Text="Editor de videos 4k" Grid.Column="1" Grid.Row="4"/>
+                    </Grid>
+
+                    <Editor x:Name="EntryPerfil" Placeholder="Perfil"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="EntryApt" Placeholder="Aptitudes"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="EntryExp" Placeholder="Experiencia laboral"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                    <Editor x:Name="EntryForm" Placeholder="Formacion"  HeightRequest="70" TextColor="White" AutoSize="TextChanges"/>
+                </StackLayout>
+            </Frame>
+            <Button Text="Go" Clicked="Button_Clicked" VerticalOptions="Center" BackgroundColor="Gray"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

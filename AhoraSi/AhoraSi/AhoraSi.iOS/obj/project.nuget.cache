@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "80h9L+Uo/0n4aEvzSGe5PxVPLyqgyVATDPaF3XxjMivlm4CNtiKAiRwqFFDuitbR2nppCC9KGkDpXJQ0oGPcdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\itsma\\source\\repos\\AhoraSi\\AhoraSi\\AhoraSi.iOS\\AhoraSi.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\itsma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\itsma\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\bin\Debug\netstandard2.0\AhoraSi.deps.json
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\bin\Debug\netstandard2.0\AhoraSi.dll
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\bin\Debug\netstandard2.0\AhoraSi.pdb
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.csproj.AssemblyReference.cache
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.AssemblyInfoInputs.cache
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.AssemblyInfo.cs
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.csproj.CoreCompileInputs.cache
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.dll
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\refint\AhoraSi.dll
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\AhoraSi.pdb
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\ref\AhoraSi.dll
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\itsma\source\repos\AhoraSi\AhoraSi\AhoraSi\obj\Debug\netstandard2.0\Page2.xaml.g.cs
